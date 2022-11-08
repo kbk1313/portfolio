@@ -117,7 +117,7 @@ section .mockup:hover:after{
 } */
 
 #work02 .mockup{
-    background: url(../img/Mockup_2.jpg);
+    background: url(../img/mockup_4.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -126,6 +126,17 @@ section .mockup:hover:after{
     background: url(../img/Mockup_3.jpg);
     background-size: cover;
     background-position: center center;
+}
+
+
+
+section:last-child .mockup:hover:after{
+    content:"";
+    opacity: 0;
+}
+
+section:last-child .mockup:after{
+    cursor: default;
 }
 
 section.on .card{
@@ -234,3 +245,8 @@ nav .gnb a:hover{
 .burger.on .bar:nth-child(4){
     opacity: 0;
 }
+
+
+/* #bxslider{
+    width: 70%;
+} */
